@@ -1,0 +1,18 @@
+<div class="wrapper">
+ <div class="sidebar">
+ 	<img class="logo" src="./app/assets/zeus_logo.png" alt="zeus logo"/>
+ 	<my-menu></my-menu>
+
+ </div>
+ <div class="content">
+    <header>
+      <my-timefilter></my-timefilter>
+      <my-notification></my-notification>
+      <my-search></my-search>
+      <hr style="width: 100%;clear:both"/>
+    </header>
+    <div class="content-body">
+ 	  <router-outlet></router-outlet>
+ 	</div>
+ </div>
+</div>
